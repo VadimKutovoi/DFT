@@ -146,7 +146,6 @@ int main()
 	const char* filename = "D:\\Documents\\Visual Studio 2015\\Projects\\ConsoleApplication1\\x64\\Release\\Lenna.jpg";
 	
 	Mat original = imread(filename, CV_LOAD_IMAGE_GRAYSCALE);
-	Mat _dft = imread(filename, CV_LOAD_IMAGE_GRAYSCALE);
 	imshow("Input Image", original);
 
 	Mat padded;                            
